@@ -4,6 +4,11 @@ public class AccountOperations {
         return a;
     }
     
+    public static Account setDefaultPhone(Account a){
+        a.Phone = '978764474';
+        return a;
+    }    
+    
     public static Account setDefaultURL(Account a){ //DEV2 change
         a.Website = 'www.copa.do';
         return a;
