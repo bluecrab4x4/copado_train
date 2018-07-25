@@ -3,4 +3,9 @@ public class AccountOperations {
         a.Description = 'Default Description';
         return a;
     }
+    
+    public static Account setDefaultURL(Account a){ //DEV2 change
+        a.Website = 'www.copa.do';
+        return a;
+    }
 }
